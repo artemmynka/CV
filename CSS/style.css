@@ -213,9 +213,15 @@ body {
 
 .photo__heading {
   text-align: center;
-  padding-bottom: 15px;
   font-size: 40px;
   font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.photo__preheading {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .icon__container {
@@ -306,7 +312,7 @@ body {
   font-size: 35px;
   font-weight: 600;
   color: #2e60b3;
-  padding-top: 10px;
+  padding: 10px 0 0 10px;
 }
 
 .about__content {
@@ -332,8 +338,7 @@ body {
   font-size: 35px;
   color: #2e60b3;
   font-weight: 800;
-  min-width: 400px;
-  max-width: 600px;
+  width: 28vw;
   margin: 20px auto;
 }
 
@@ -606,4 +611,17 @@ html.light .level__index {
 
 html.light .menu__icon span, html.light .menu__icon:before, html.light .menu__icon:after {
   background-color: #2165d5;
+}
+
+@media (max-width: 500px) {
+  .skill {
+    width: 100%;
+    padding: 0 20px 0 0;
+  }
+  .container {
+    margin: 10px 10px 10px 15px;
+  }
+  .photo__container {
+    padding: 0;
+  }
 }
